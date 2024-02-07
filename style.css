@@ -1,0 +1,148 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #c6b139;
+}
+
+.container {
+    height: 253px;
+    width: 253px;
+    display: grid;
+    background-color: rgb(38, 37, 37);
+    grid-template-columns: 28px 28px 28px 65px 30px 23px 15px;
+    grid-template-rows: 22px 75px 51px 24px 17px 21px 7px;
+    gap: 6px;
+        
+}
+
+.container {
+    /* border: 3px solid black; */
+    box-shadow: -10px 10px 10px 5px  rgb(49, 49, 49);
+}
+
+.item {
+    background-color: rgb(250, 249, 249);
+}
+
+.white1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+}
+
+.white2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+   
+}
+
+.yellow {
+    background-color: #F9D01E;
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+
+.white3 {
+    grid-column-start: 7;
+    grid-row-start: 1;
+    grid-row-end: 5;
+   
+}
+
+ .white4 {
+   
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+.red { 
+    background-color:rgb(191, 28, 28);
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.yellow2 {
+    background-color: #F9D01E;
+    grid-column-start: 5;
+    grid-column-end: 7;
+    
+}
+
+.white5 {
+    grid-column-start: 5;
+    
+}
+
+.white6 {
+    
+    grid-column-start: 6;
+}
+
+
+.black {
+    background-color: #232629;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+}
+
+
+.white7 {
+    grid-column-start: 4;
+   
+}
+
+.white8 {
+    
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+
+.yellow3 {
+    background-color: #F9D01E;
+    grid-row-start: 5;
+    grid-row-end: 8;
+}
+
+.white9 {
+    
+    grid-column: span 2;
+}
+
+.white10 {
+    
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.blue {
+    background-color: rgb(23, 23, 174);
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.red2 {
+    background-color: rgb(191, 28, 28);
+    grid-row: span 3;
+}
+
+.white11 {
+   
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.black2 {
+    background-color: #232629;
+}
+
+.white12 {
+    
+    grid-column: span 3;
+}
